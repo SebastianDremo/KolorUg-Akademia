@@ -1,0 +1,4 @@
+Napisz program, który poprosi użytkownika o podanie 2 cyfr, następnie : 
+a) Pomnoży liczby przez siebie i wypisze wynik na ekranie
+b) Jeżeli suma tych cyfr będzie większa bądź równa 15 -> wypiszę ją na ekranie
+c) Jeżeli suma będzie mniejsza od 15 wypiszę na ekranie "Suma mniejsza od 15"
