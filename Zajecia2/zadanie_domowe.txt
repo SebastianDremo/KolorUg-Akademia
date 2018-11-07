@@ -1,0 +1,12 @@
+zadanie 1. 
+
+Napisz program "SZYFR", który wyœwietli jakieœ s³owo tylko gdy podamy z klawiatury jeden z dwóch zdefiniowanych numerów.
+//czyli po odpaleniu programu ma pokazaæ siê komunikat: "podaj haslo", nastepnie po wczytaniu liczby z klawiatury, jeœli has³o jest poprawne pokazuje siê jakieœ s³owo, jeœli nie pokazuje siê komunikat "z³e has³o" 
+zadanie 2.
+przed wykonaniem tego zadania nale¿y przeczytaæ w internecie o " dzieleniu modulo w programowaniu " 
+
+Wypisz liczby naturalne do 400...
+a. podzielne przez 2 ( 2,4,6...)
+b. podzielne przez 5 ( 5,10,15...)
+c. podzielne przez 2 lub 5 (2,4,5...)
+d. podzielne przez 4 oraz 7 (28, 56...)
