@@ -1,0 +1,10 @@
+1.Napisz program „kalkulator” korzystaj¹cy z switch case
+2.Napisz program, który pozwoli zalogowaæ siê do systemu( za pomoc¹ s³ownika) da komunikat, 
+nastepnie poprosi u¿ytkownika wybranie czy po³¹czyæ s³owa (³¹czenie stringów) lub czy chce 
+policzyæ œredni¹ arytmetyczna. Wtedy zale¿nie od wyboru poprosi o 5 s³ow lub 5 licz (lista lub tablica) 
+Na koniec da komunikat o po³¹czonym napisaie lub o œredniej.
+
+
+
+Rozwi¹zania wysy³aæ pod mail kaspercisewski@gmail.com (sprawdzimy oraz damy feedback dla pierwszych 10 nades³anych prac, 
+wystarcz¹ same pliki .cs jako za³¹cznik) 
