@@ -1,0 +1,3 @@
+Dwie opcje:
+1. kakulator wykorzystuj¹cy metody
+2. lotto (na bazie ostatniej z omawianych metod)
