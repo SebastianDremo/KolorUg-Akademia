@@ -6,21 +6,37 @@ namespace ClassesAndObjects
     {
         static void Main(string[] args)
         {
-            Car objectCar = new Car();
-            objectCar.Make = "Mercedes";
-            Console.WriteLine(objectCar.Make);
+            Car mercedes = new Car("Merceds","Czarny");
+            Car secondMercedes = mercedes;
+            Console.WriteLine(mercedes.Color);
+            secondMercedes.Color = "Biał";
+            Console.WriteLine(mercedes.Color);
             Console.ReadKey();
         }
     }
 
     class Car
     {
-        private string Make;
-
-        public void setMake(string make)
+        public string Color;
+        private string _make;
+        public string Make
         {
-            Make = make;
+            get
+            {
+                return _make;
+            }
+            private set
+            {
+                if (value != "BMW")
+                    _make = value;
+            }
         }
+
+        public Car(string make, string color)
+        {
+            this.Make = make;
+            this.Color = color;
+        }  
   
     }
 }
