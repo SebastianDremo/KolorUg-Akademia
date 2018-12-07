@@ -1,0 +1,16 @@
+Zadaniem domowym bêdze stworzenie klasy odzwierciedlaj¹cej cz³owieka:
+Klasa ma posiadaæ:
+	- co najmniej cztery w³aœciwoœci (w celach edukacyjnych niech dwie posiadaj¹ modyfikator public, a dwie private)
+	- jedn¹ w³aœciwoœæ statyczn¹
+	- co najmniej dwa konstruktory 
+	- co najmniej dwie metody
+
+Interpretacja zadania jest dowolna, ka¿dy mo¿e stworzyæ swojego cz³owieczka na w³asny sposób :D
+
+Dodatkowo:
+	- Mo¿na stworzyæ w³aœciwoœæ która bêdzie List¹ lub S³ownikiem i operowaæ na nim w metodach! ;)
+	- Klasa statyczna? ;)
+
+Zalecam æwiczenie dobrych praktyk tzn. tworzymy nazwy w jêzyku angielskim oraz w odpowiedniej formie (camelCase, PascalCase) oraz prefixy.
+
+Powodzenia! :D
