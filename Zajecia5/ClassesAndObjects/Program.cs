@@ -62,11 +62,6 @@ namespace ClassesAndObjects
         {
             this._distance.Add(distance);
         }
-        public Car()
-        {
-
-        }
-        public int MyProperty { get; set; }
     }
 
     static class Dealer
