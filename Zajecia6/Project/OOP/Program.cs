@@ -1,4 +1,6 @@
 ﻿using System;
+using geometry;
+
 
 namespace OOP
 {
@@ -6,21 +8,32 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-            Car car = new Car();
-            int a =2;
-            car.test(ref a);
-            System.Console.WriteLine(a);
+            Audi audi = new Audi("Czarny", 2.0f, 48);
+            audi.Accelerate(10);
+            
+            square sq = new square();
             Console.ReadKey();
         }
+
     }
     
-    public class Car
+    abstract public class Car
     {
         public string Color { get; set; }
         public float EngineDisplacement { get; set; }
-        public int FuelTankCapacity { get; set; }
-        public int Fuel { get; set; }
-        public short Speed { get; set; }
+        public int FuelTankCapacity ;
+        private int Fuel { get; set; }
+        private short _speed;
+        public short Speed
+        {
+            get{
+                return this._speed;
+            }
+            set{
+                if(value >= 0 && value < 180)
+                    _speed = value;
+            }
+        }
 
         public Car()
         {
@@ -56,49 +69,16 @@ namespace OOP
         }
         public void test(ref int a)
         {
-             ++a;
+             a++;
         }
     }
 
 
-    public class Audi
+    public class Audi : Car
     {
-        public string Color { get; set; }
-        public float EngineDisplacement { get; set; }
-        public int FuelTankCapacity { get; set; }
-        public int Fuel { get; set; }
-        public short Speed { get; set; }
-        public bool Quattro { get; set; }
-
-        public Audi()
-        {
-            Speed = 0;
-            Fuel = 0;
-        }
-        public Audi(string color, float engineDispacement, int fuelTankCapacity) : this()
-        {
-            Color = color;
-            EngineDisplacement = engineDispacement;
-            FuelTankCapacity = fuelTankCapacity;
-            this.Refuel();
-        }
-
-        public void Refuel()
-        {
-            Fuel = FuelTankCapacity;
-        }
-
-        public void Accelerate(int targetSpeed)
-        {
-            while (Speed <= targetSpeed)
-                Console.WriteLine($"Prędkość: {this.Speed++}  Stan paliwa: {this.Fuel--}/{this.FuelTankCapacity}");
-        }
-
-        public void Stop()
-        {
-            Console.WriteLine("\nHamowanie!");
-            Speed = 0;
-            Console.WriteLine($"Prędkość: {Speed}  Stan paliwa: {this.Fuel}/{this.FuelTankCapacity}");
-        }
+        public bool Quattro;
+        public Audi(string color,float engineDispacement, int fuelTankCapacity) : base(color, engineDispacement, fuelTankCapacity)
+        {}
     }
+    
 }
