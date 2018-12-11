@@ -6,17 +6,10 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-            Car car = new Car("Red", 1.8f, 36);
-            Audi audi = new Audi("Black", 2.0f, 42);
-
-            Console.WriteLine("Obiekt Car: ");
-            car.Accelerate(10);
-            car.Stop();
-            
-            Console.WriteLine("\n \nObiekt Audi: ");
-            audi.Accelerate(10);
-            audi.Stop();
-
+            Car car = new Car();
+            int a =2;
+            car.test(ref a);
+            System.Console.WriteLine(a);
             Console.ReadKey();
         }
     }
@@ -60,6 +53,10 @@ namespace OOP
             Console.WriteLine("\nHamowanie!");
             Speed = 0;
             Console.WriteLine($"Prędkość: {Speed}  Stan paliwa: {this.Fuel}/{this.FuelTankCapacity}");            
+        }
+        public void test(ref int a)
+        {
+             a=3;
         }
     }
 
