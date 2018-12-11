@@ -56,7 +56,7 @@ namespace OOP
         }
         public void test(ref int a)
         {
-             a=3;
+             ++a;
         }
     }
 
