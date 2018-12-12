@@ -1,0 +1,14 @@
+Zadanie domowe po pierwszej czêœci zajêæ z OOP bêdzie bazowa³o na poprzednim, które polega³o na stworzeniu klasy reprezentuj¹cej cz³owieka.
+
+Waszym zadaniem bêdzie stworzenie kolejnej klasy, która bêdzie dziedziczy³a po wczeœniej przygotowanej klasie Human i bêdzie ju¿ konkretnym obiektem 
+jak np. mê¿czyzna, kobieta, student lub prezydent. Kompletna dowolnoœæ wykonania! :D
+
+- Klasa Human powinna staæ siê klas¹ abstrakcyjn¹!
+- Postarajcie siê tak wykorzystaæ dziedziczenie aby nie ³amaæ zasady DRY (Don’t Repeat Yourself)! ;)
+- Pamiêtajcie o hermetyzacji!  
+
+Dodatkowo:
+- Mo¿na zastosowaæ dziedziczenie wielopokoleniowe tworz¹c kilka ma³ych klas które dodaj¹ kolejne implementacje tworz¹c ca³oœæ jak np. 
+	(abstrakcja)Ssak <- (abstrakcja)Cz³owiek <- Mê¿czyzna
+
+Powodzenia! 
