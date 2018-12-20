@@ -1,0 +1,11 @@
+Kolejne zadanie domowe ponownie bêdzie rozszerzaæ funkcjonalnoœæ i czystoœc poprzedniego!\
+
+1) Dokonaj ponownej hermetyzacji klasy Human przy u¿yciu nowych modyfkiatorów
+2) Zmodyfikuj metody klasy Human, aby mog³y wykorzystaæ polimorfizm
+3) W klasach dziedzicz¹cych po Human zastosuj polimorfizm (przys³oniêcia/nadpisania matod)
+4) Przy dokonywaniu rzutowania sprawdzaj poprawnoœæ typów!
+5) Stwórz interfejsy okreœlaj¹ce wymagane metody, które bêd¹ implementpowane przez Twoje klasy
+
+6*) Wykorzystaj interfejsy do u¿ycia Odwrócenia Zale¿noœci (Dependency Inversion) w Twoich klasach
+
+Powodzenia! :D
