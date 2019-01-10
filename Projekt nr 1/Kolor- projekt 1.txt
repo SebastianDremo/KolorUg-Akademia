@@ -1,0 +1,22 @@
+Projekt polega na stworzeniu minigry z cechami rpg ( rozwój postaci ) oraz jrpg ( turowa walka ).
+G³ówne za³o¿enie to wykorzystanie w pe³ni za³o¿eñ obiektowego programowania "OOP", programista powinien zaimplementowaæ hierarchiê klas 
+( wykorzystuj¹c implementacjê interfejsów oraz dziedziczenia klas abstrakcyjnych )  odpowiedni¹ dla stworzonego przez niego systemu.
+Odpalaj¹c program u¿ytkownik ma mieæ mo¿liwoœæ stworzenia w³asnej postaci i rozdzielenia jej punktów umiejêtnoœci lub wybrania jednej z dostêpnych postaci.
+ 
+Po rozpoczêciu faktycznej gry nasza postaæ ma wchodziæ w walkê turow¹ z losowo wygenerowanym przeciwnikiem posiadaj¹cym (odpowiednio rozdane) w³asne punkty umiejêtnoœci. Podczas walki mamy mieæ mo¿liwoœc wybierania nastêpnej akcji naszej postaci (atakuj, blokuj, unik, leczenie).
+
+Programista ma za zadanie stworzyæ system, który bêdzie sprawiedliwy tj. nasza postaæ ma mieæ mo¿liwoœæ przegrania walki poprzez zdarzenia losowe lub b³êdne wykorzystanie umiejêtnoœci. 
+
+Po ka¿dej walce nasza postaæ ma mieæ mo¿liwoœæ awansowania na nastêpny poziom, jednak dobierani przeciwnicy musz¹ byæ na takim samym poziomie co nasz bohater aby gra by³a wymagaj¹ca. 
+
+G³ówne czynniki wp³ywaj¹ce na ocenê programu: 
+- wykorzystanie OOP ( polimorfizm, dziedziczenie itp.) 
+- zbalansowanie œwiata gry
+- innowacyjnoœæ przy tworzeniu œwiata 
+- wykorzystanie jak najwiêkszej iloœci zdobytej wiedzy z zajêæ oraz w³asnej ( nie bójmy siê wykorzystaæ coœ czego nie by³o na zajêciach )
+- poprawne u¿ywanie Git'a ( poprawne nazewnictwo oraz mnogoœæ commitów ) 
+
+Deadline:   27 styczeñ 2019, projekty przyjmujemy tylko poprzez GitHuba. Po skoñczeniu prac wysy³amy linka do repozytorium dla jednego z cz³onków Koloru.
+
+Ka¿dy projekt musi mieæ swój opis na GitHubie gdzie przedstawimy nasz projekt opisuj¹c jak spe³niliœmy wymagania ( czyt. g³ówne czynniki wymienione wy¿ej )
+
