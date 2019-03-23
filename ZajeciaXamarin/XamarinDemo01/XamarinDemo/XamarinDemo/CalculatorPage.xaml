@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinDemo.CalculatorPage">
+    <ContentPage.Content>
+        <StackLayout>
+           <Entry x:Name="FirstNumber"/>
+           <Entry x:Name="SecondNumber"/>
+
+             <Button Clicked="Button_OnClicked" Text="+"/>
+           <Button Clicked="Button_OnClicked" Text="-"/>
+           <Button Clicked="Button_OnClicked" Text="*"/>
+           <Button Clicked="Button_OnClicked" Text="/"/>
+
+           <Label x:Name="ResultLabel" Text="{Binding Result}"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
