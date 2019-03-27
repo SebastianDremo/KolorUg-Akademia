@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinDemo.View.CalculatorPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="{Binding FirstNumber}"/>
+            <Entry Text="{Binding SecondNumber}"/>
+
+            <Picker ItemsSource="{Binding MathematicalSigns}" SelectedItem="{Binding SelectedMathematicalSign}"/>
+
+            <Label x:Name="ResultLabel" Text="{Binding Result}"/>
+
+            <Button Command="{Binding SaveCommand}" Text="Calculate"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinDemo.View;
 
 namespace XamarinDemo
 {
@@ -11,10 +12,16 @@ namespace XamarinDemo
             InitializeComponent();
         }
 
-        public MenuPage(CalculatorPage calculatorPage, BMICalc bmiCalc)
+        public MenuPage(View.CalculatorPage calculatorPage, BMICalc bmiCalc, HelloPage hello)
         {
             Children.Add(calculatorPage);
             Children.Add(bmiCalc);
+            Children.Add(hello);
+        }
+
+        public MenuPage(View.CalculatorPage calculatorPage, BMICalc bmiCalc, View.CalculatorPage calculatorPage1)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

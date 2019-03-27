@@ -3,14 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinDemo;assembly=XamarinDemo"
              xmlns:tabbedPage="clr-namespace:XamarinDemo;assembly=XamarinDemo"
+             xmlns:view="clr-namespace:XamarinDemo.View;assembly=XamarinDemo"
              x:Class="XamarinDemo.MenuPage">
   <!--Pages can be added as references or inline-->
 
   <local:MenuPage>
-        <x:Arguments>
-            <tabbedPage:CalculatorPage Title="Calc page"/> 
-            <tabbedPage:BMICalc Title="BmiCalc"></tabbedPage:BMICalc>
-        </x:Arguments>
+    <x:Arguments>
+      <view:CalculatorPage Title="Calc page"/>
+      <tabbedPage:BMICalc Title="BmiCalc"></tabbedPage:BMICalc>
+      <view:HelloPage Title="Hello"/>
+    </x:Arguments>
   </local:MenuPage>
 
 
